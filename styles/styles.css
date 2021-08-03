@@ -1,0 +1,55 @@
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+ background-image: url("../images/background-notebook-image.png");
+ background-position: center center;
+ position: relative;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+.header {
+ text-align: center;
+ margin-top: 30px;
+}
+
+h1 {
+ font-family: "Halant", serif;
+ font-size: 30px;
+ color: #362c24;
+ text-align: center;
+ margin: 10px 5px;
+}
+
+th {
+ border: 1px solid #7a5b3b;
+ font-family: "Nunito Sans", sans-serif;
+ color: #362c24;
+}
+
+table {
+ text-align: center;
+ margin: 20px auto;
+}
+
+td {
+ border: 1px solid #7a5b3b;
+ width: 160px;
+ font-family: "Nunito Sans", sans-serif;
+}
+
+.footer {
+ line-height: 1px;
+ font-family: "Halant", serif;
+ font-size: 10px;
+ text-align: center;
+ margin-top: 650px;
+}
+
+a:link {
+ color: #7a5b3b;
+ text-decoration: none;
+}
