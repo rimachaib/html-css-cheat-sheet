@@ -14,6 +14,7 @@ body {
 .header {
  text-align: center;
  margin-top: 30px;
+ position: relative;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h1 {
 
 th {
  border: 1px solid #7a5b3b;
+ border-radius: 2%;
  font-family: "Nunito Sans", sans-serif;
  color: #362c24;
 }
@@ -37,14 +39,18 @@ table {
 
 td {
  border: 1px solid #7a5b3b;
+ border-radius: 5%;
  width: 160px;
  font-family: "Nunito Sans", sans-serif;
+ font-size: 12px;
+ padding: 10px;
 }
 
 .code {
     background-color: #ece3d9;
     font-family: monospace;
-    width: 35px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
 }
 
 .footer {
@@ -58,4 +64,8 @@ td {
 a:link {
  color: #7a5b3b;
  text-decoration: none;
+}
+
+a:visited {
+    color: #daba9a;
 }

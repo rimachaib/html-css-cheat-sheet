@@ -14,12 +14,12 @@
  </head>
  <body>
   <header class="header">
-   <h1>HTML & CSS Cheat Sheet</h1>
+   <h1><a href="#html">HTML</a> & <a href="#css">CSS</a> Cheat Sheet</h1>
   </header>
   <main>
    <!--Start of HTML Table-->
    <section class="html-table">
-    <h1>HTML</h1>
+    <h1 id="html">HTML</h1>
     <table>
      <!--Table Headers-->
      <thead>
@@ -29,26 +29,107 @@
        <th>Description</th>
       </tr>
      </thead>
+      <!--HTML Table Data-->
      <tbody>
-          <!--HTML Table Data-->
+         <!--<!DOCTYPE html>-->
+          <tr>
+       <td>
+           <span class="code"> &lt;!DOCTYPE html&gt; </span>
+       </td>
+       <td>Document Type Declaration</td>
+       <td>The document type declaration <!DOCTYPE html> is required as the first line of an HTML document. The doctype declaration is an instruction to the browser about what type of document to expect and which version of HTML is being used, in this case it’s HTML5.</td>
+      </tr>
+         <!--<head>-->
+          <tr>
+       <td>
+           <span class="code"> &lt;head&gt; </span>
+       </td>
+       <td>Head Element</td>
+       <td>The head element contains metadata (general information about an HTML page that isn't displayed on the page itself), inlcuding title and links to stylesheets.</td>
+      </tr>
+      <!--<title>-->
+          <tr>
+       <td>
+           <span class="code"> &lt;title&gt; </span>
+       </td>
+       <td>Title Element</td>
+       <td>The title element contains text that defines the title of an HTML document. The title is displayed in the browser's title bar or tab.  This element can only be included inside the document's &lt;head&gt; element.</td>
+      </tr>
+      <!--<body>-->
+      <tr>
+       <td>
+           <span class="code"> &lt;body&gt; </span>
+       </td>
+       <td>Body Element</td>
+       <td>The &lt;body&gt; element represents the content of an HTML document. Content inside &lt;body&gt; tags are rendered on the web browsers.</td>
+      </tr>
+      <!--<div>-->
+      <tr>
+       <td>
+           <span class="code"> &lt;div&gt; </span>
+       </td>
+       <td>Division Element</td>
+       <td>The &lt;div&gt; element is used as a container that divides an HTML document into sections and is short for “division”.</td>
+      </tr>
+      <!--<h1> - <h6>-->
+      <tr>
+       <td>
+           <span class="code"> &lt;h1&gt;, &lt;h2&gt;... &lt;h6&gt; </span>
+       </td>
+       <td>&lt;h1&gt;-&lt;h6&gt; Heading Elements</td>
+       <td>HTML uses six different sized heading elements; the largest size header is &lt;h1&gt; with the heading sizes decreasing and &lt;h6&gt; being the smallest header.</td>
+      </tr>
+          <!--<em>-->
       <tr>
        <td>
            <span class="code"> &lt;em&gt; </span>
        </td>
-       <td>Emphasis</td>
-       <td>The emphasis element emphasizes text; browsers will render the text inside an <em> tag, italicized by default</td>
+       <td>Emphasis Element</td>
+       <td>The emphasis element emphasizes text; browsers will render the text inside an <em> tag, italicized by default.</td>
+      </tr>
+      <!--<ol>-->
+          <tr>
+       <td>
+           <span class="code"> &lt;ol&gt; </span>
+       </td>
+       <td>Ordered List Element</td>
+       <td>The ordered list element creates a list of items in sequential order; each list item is numbered by default.</td>
+      </tr>
+      <!--<ul>-->
+          <tr>
+       <td>
+           <span class="code"> &lt;ul&gt; </span>
+       </td>
+       <td>Unordered List Element</td>
+       <td>The unordered list element creates a list of items in no particular order; each list item will have a bullet point by default.</td>
+      </tr>
+      <!--<li>-->
+          <tr>
+       <td>
+           <span class="code"> &lt;li&gt; </span>
+       </td>
+       <td>List Item Element</td>
+       <td>The list item element creates list items inside &lt;ul&gt; and &lt;ol&gt;.</td>
+      </tr>
+      <!--<br>-->
+          <tr>
+       <td>
+           <span class="code"> &lt;br&gt; </span>
+       </td>
+       <td>Line Break Element</td>
+       <td>The line break element creates a line break in text and is useful where a division of text is required.  This element does not require a closing tag.</td>
       </tr>
      </tbody>
     </table>
    </section>
    <!--Start of CSS Table-->
    <section class="css-table"></section>
-   <h1>CSS</h1>
+   <h1 id="css">CSS</h1>
    <table>
     <!--Table Headers-->
     <thead>
      <tr>
-      <th>Tag</th>
+      <th>Property</th>
        <th>Name</th>
        <th>Description</th>
      </tr>
