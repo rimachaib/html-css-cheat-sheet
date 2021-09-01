@@ -3,8 +3,8 @@ html {
 }
 
 body {
-display: block;
-align-content: center;
+ display: block;
+ align-content: center;
  background-image: url("../images/background-notebook-image.png");
  background-position: center center;
  position: relative;
@@ -49,13 +49,12 @@ td {
 }
 
 .code {
-    background-color: #ece3d9;
-    font-family: monospace;
-    line-height: 50px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 5%;
+ background-color: #ece3d9;
+ font-family: monospace;
+ line-height: 50px;
+ padding: 10px 10px 10px 10px;
+ border-radius: 5%;
 }
-
 
 .footer {
  line-height: 1px;
@@ -71,5 +70,5 @@ a:link {
 }
 
 a:visited {
-    color: #daba9a;
+ color: #daba9a;
 }
